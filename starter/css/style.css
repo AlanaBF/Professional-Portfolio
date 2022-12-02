@@ -7,7 +7,32 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  font-size: 18px;
+  line-height: 150%;
+  color: midnightblue;
+  background: darkturquoise;
 }
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white;
+  color: midnightblue;
+  background-color: darkturquoise;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+#bio-image {
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+
 
 h1,
 h2,
@@ -20,4 +45,31 @@ h6 {
 
 p {
   margin: 0;
+}
+
+#subheading, 
+#main-bio,
+#bio-image,
+#about,
+#work,
+#contact-info
+ {
+  align-items: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
