@@ -15,7 +15,7 @@ When images of the applications are clicked then the user is taken to that deplo
 
 When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
-https://alanabf.github.io/HTML-CSS-Git-Code-Refactor/ 
+https://alanabf.github.io/Professional-Portfolio/ 
 
 ## Installation
 
@@ -25,7 +25,7 @@ N/A
 
 The webpage is a Professional Portfolio giving users an insight into me and what I do. The page demonstrates my skills and is constantly updated to showcase my best work. 
 
-![alt text](./starter/images/Professional%20Portfolio.png)
+![alt text](./assets/Professional-Portfolio.png)
 
 ## Credits
 
