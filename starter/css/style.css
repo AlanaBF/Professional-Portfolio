@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+#background-image {
+  background-image: url("../images/IMG_8409.jpeg");
+  width: 100%;
+  height: 150px;
+}
+
+body {
+  background-image: url("../images/IMG_2463.jpeg");
+  background: rgb(11, 250, 253);
+  background: linear-gradient(162deg, rgba(11, 250, 253, 1) 0%, rgba(0, 125, 226, 1) 100%);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,16 +21,15 @@ body {
   line-height: 1.5;
   font-size: 18px;
   line-height: 150%;
-  color: midnightblue;
-  background: darkturquoise;
 }
+
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: white;
-  color: midnightblue;
-  background-color: darkturquoise;
+  background-color: steelblue;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header h1 {
@@ -31,40 +42,110 @@ body {
   height: 300px;
   margin: 20px;
   padding: 20px;
+  float: left;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.nav {
+  display: flex;
+  background-color: steelblue;
+  padding: 10px;
 }
 
-p {
-  margin: 0;
+.nav a:hover {
+  background-color: #ddd;
+  color: hotpink;
 }
 
-#subheading, 
+.right {
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.right {
+  width: 50%;
+}
+
+.right a {
+  color: white;
+  padding: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Arial;
+  justify-content: right;
+}
+
+.about h2 {
+  justify-content: left;
+  align-items: left;
+}
+
 #main-bio,
 #bio-image,
 #about,
 #work,
-#contact-info
- {
+#contact-info {
   align-items: left;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#main-bio {
-  width: 70%;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: 300px;
 }
 
-#contact-info {
-  width: 30%;
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.box5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.box1 {
+  background-image: url("../images/HTML-CSS-Git-Code-Refactor.png")
+}
+
+.box3 {
+  background-image: url("../images/Prework-Study-Guide.png");
+}
+
+.box2 {
+  background-image: url("../images/cool-background.png");
+}
+
+.box4 {
+  background-image: url("../images/cool-background1.png");
+}
+
+.box5 {
+  background-image: url("../images/cool-background2.png");
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 20px solid teal;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer {
@@ -73,3 +154,7 @@ p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
+
+@media screen and (max-width: 1020px);
+@media screen and (max-width: 780px);
+@media screen and (max-width: 480px);
